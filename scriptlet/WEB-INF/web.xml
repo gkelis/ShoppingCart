@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : web.xml
+    Created on : December 9, 2011, 10:19 PM
+    Author     : FoG
+    Description:
+        Purpose of the document follows.
+-->
+<web-app metadata-complete="true" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee                       http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <!--
+	Here you can set-change the price values of the 3 items in your
+	basket (Cafe, Sugar, Water)
+-->
+    <context-param>
+        <param-name>cafe_price</param-name>
+        <param-value>18.50</param-value>
+    </context-param>
+    <context-param>
+        <param-name>sugar_price</param-name>
+        <param-value>6.95</param-value>
+    </context-param>
+    <context-param>
+        <param-name>water_price</param-name>
+        <param-value>1.29</param-value>
+    </context-param>
+</web-app>
